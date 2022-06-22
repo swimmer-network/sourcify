@@ -419,5 +419,10 @@ export default {
         "contractFetchAddress": "https://gw-explorer.nervosdao.community/" + BLOCKSCOUT_SUFFIX,
         "txRegex": getBlockscoutRegex()
     },
-    
+    "73772": { // Swimmer Mainnet
+        "supported": true,
+        "monitored": false,
+        "contractFetchAddress": `https://subnet-explorer-api.avax.network/v1.1/73772/` + AVALANCHE_SUBNET_SUFFIX,
+    },
+
 }

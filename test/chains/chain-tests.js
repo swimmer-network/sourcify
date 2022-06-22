@@ -936,7 +936,23 @@ describe("Test Supported Chains", function () {
     ["shared/WithImmutables.sol"],
     "shared/withImmutables.metadata.json"
   );
-
+  // Swimmer Mainnet
+  verifyContract(
+    "0x9a0DD5869Ad3A0E53a1284c80E4177920DFaD128",
+    "73772",
+    "Swimmer Chain",
+    ["shared/1_Storage.sol"],
+    "shared/1_Storage.metadata.json"
+  );
+  verifyContractWithImmutables(
+    "0x529A271AA95733B219Ef79d5B39E57448428F808",
+    "73772",
+    "Swimmer Chain",
+    ["uint256"],
+    [73772],
+    ["shared/WithImmutables.sol"],
+    "shared/withImmutables.metadata.json"
+  );
   //////////////////////
   // Helper functions //
   //////////////////////
